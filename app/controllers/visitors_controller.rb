@@ -1,5 +1,7 @@
 class VisitorsController < ApplicationController
+  
   def new
-    @visitor = Visitor.new
+    @owner = Owner.new
   end
+  
 end

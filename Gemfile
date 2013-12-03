@@ -1,14 +1,12 @@
 source 'https://rubygems.org' 
 ruby '2.0.0'
 gem 'rails', '4.0.1'
- # Rails defaults
 gem 'sass-rails', '~> 4.0.0' 
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0' 
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
- # learn-rails
 gem 'activerecord-tableless'
 gem 'compass-rails', '~> 2.0.alpha.0' 
 gem 'figaro'
@@ -20,11 +18,11 @@ gem 'zurb-foundation'
 group :development do
   gem 'better_errors' 
   gem 'quiet_assets' 
-  gem 'rails_layout'
+  gem 'rails_layout' 
+  gem 'sqlite3'
 end
 group :production do
   gem 'pg'
-  gem 'sqlite3'
-  gem 'rails_12factor'
+  gem 'rails_12factor' 
   gem 'thin'
 end

@@ -26,3 +26,7 @@ group :production do
   gem 'rails_12factor' 
   gem 'thin'
 end
+gem 'jquery-rails'
+group :assets do
+  gem 'jquery-ui-rails'
+end

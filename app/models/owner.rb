@@ -8,4 +8,9 @@ class Owner
     date = DateTime.now
   end
   
+  def message
+    message = "Rutgers University Democrats"
+  end
+  
+
 end
